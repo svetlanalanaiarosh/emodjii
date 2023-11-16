@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #556270;
+    color: #353d46;
+}
+
+.install-btn {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #ff6699; /* Розовый цвет */
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px; /* Закругленные углы */
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета */
+}
+
+.install-btn.active {
+    display: block;
+}
+
+.install-btn:hover {
+    background-color: #ff3385; /* Изменение цвета при наведении */
+}
+
+.menu-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff; /* Белый цвет */
+    color: #333; /* Цвет текста */
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px; /* Закругленные углы */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Плавное изменение цвета */
+}
+
+.menu-btn:hover {
+    background-color: #f5f5f5; /* Изменение цвета при наведении */
+}
+
+/* Дополнительные стили для отображения эмодзи */
+.emojis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.emoji-item {
+    margin: 10px;
+}
